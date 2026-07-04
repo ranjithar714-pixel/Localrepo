@@ -1,3 +1,4 @@
 FROM alpine
 
-CMD ["echo", "Hello from CMD"]
+ENTRYPOINT ["echo"]
+CMD ["Hello from ENTRYPOINT"]
